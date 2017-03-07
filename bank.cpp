@@ -37,6 +37,4 @@ int Bank::playBet(){
  	
  }
  
- int Bank::bankTrips(){
- 	
- }
+ //int Bank::bankTrips(){ }

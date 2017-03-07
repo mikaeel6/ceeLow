@@ -27,14 +27,13 @@ int main(int argc, char** argv) {
 	Bank Pbank;
 	
 	do{
-		
-    bet = Pbank.playBet();
+	bet = Pbank.playBet();
     bank = bank - bet;
     cout <<" This is your current bankroll " <<bank << " + your bet of " << bet << endl;
-
+    cout << "Banker rolls" << endl;
 	payOff = gameDice.roll(bet);
     bank = bank + payOff; 
-	
+	cout << "Your new bank is " << bank << endl;
      cout <<"\ndo you want to play again? ";
       
     cin >> stillPlay;

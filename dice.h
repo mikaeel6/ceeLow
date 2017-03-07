@@ -11,7 +11,7 @@ class Dice{
 private:
 int dice[6];
 int diceFace, diceFace2, diceFace3;
-int i, win;
+int i, win, point;
 time_t t;
 
 public:
